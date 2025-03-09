@@ -13,3 +13,5 @@ Route::get('/about-us', [AboutUsController::class, 'index'])->name('about-us');
 
 
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+require __DIR__.'/auth.php';
