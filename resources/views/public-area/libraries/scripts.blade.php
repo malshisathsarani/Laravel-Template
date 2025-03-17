@@ -8,3 +8,6 @@
 
 <!-- Main JS File -->
 <script src="{{ asset('public-area/js/main.js') }}"></script>
+
+
+@livewireScripts

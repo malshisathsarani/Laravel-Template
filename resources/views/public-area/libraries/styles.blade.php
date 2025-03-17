@@ -12,3 +12,5 @@
 
 <!-- Main CSS File -->
 <link href="{{ asset('public-area/css/main.css') }}" rel="stylesheet">
+
+@livewireStyles
